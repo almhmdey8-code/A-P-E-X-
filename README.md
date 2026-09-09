@@ -30,12 +30,14 @@ cd A-P-E-X-
 ./gradlew assembleRelease
 ```
 
+**للمزيد من التفاصيل، راجع [دليل إعداد البناء الكامل](./BUILD_SETUP.md)**
+
 ## سير العمل التلقائي 🔄
 
 ### GitHub Actions
 يتم التشغيل تلقائياً عند:
 - Push إلى `main` أو `develop`
-- فتح Pull Request
+- فت�� Pull Request
 - التشغيل اليدوي من تبويب Actions
 
 ### Codemagic
@@ -46,7 +48,7 @@ cd A-P-E-X-
 ## الملفات المهمة 📁
 - `.github/workflows/build-apk.yml` - سير عمل GitHub Actions
 - `codemagic.yaml` - إعدادات Codemagic
-- `BUILD_SETUP.md` - دليل تفصيلي
+- `BUILD_SETUP.md` - **دليل تفصيلي للبناء**
 - `INSTALLATION.md` - دليل التثبيت
 - `gradle.properties` - إعدادات Gradle
 
