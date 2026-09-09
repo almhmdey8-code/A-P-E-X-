@@ -1,0 +1,51 @@
+*.jks
+*.keystore
+.gradle/
+build/
+*.apk
+*.aab
+.DS_Store
+.idea/
+*.iml
+local.properties
+gradle.properties.local
+
+# Signing keys
+signing.properties
+
+# Test reports
+test-reports/
+coverage/
+
+# Android Studio
+.gradle
+.idea
+*.iml
+*.apk
+*.dex
+*.class
+.classpath
+.project
+.settings
+local.properties
+proguard-project.txt
+
+# Eclipse
+bin/
+gen/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
